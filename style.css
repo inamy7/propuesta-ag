@@ -86,6 +86,7 @@
     flex-direction: row;
   }
 
+  /* ajustes mobile 2*/
   .demo1 {
     background-image: url('img/propuestas/01_brand_.jpg');
     height: 4951px;
@@ -93,12 +94,12 @@
 
   .demo2 {
     background-image: url('img/propuestas/02_white_.jpg');
-    height: 4951px;
+    height: 5547px;
   }
 
   .demo3 {
     background-image: url('img/propuestas/03_blue_.jpg');
-    height: 4951px;
+    height: 4948px;
   }
 
 }
