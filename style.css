@@ -86,6 +86,7 @@
     flex-direction: row;
   }
 
+  /* ajustes mobile*/
   .demo1 {
     background-image: url('img/propuestas/01_brand_.jpg');
     height: 4951px;
