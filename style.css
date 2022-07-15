@@ -1,0 +1,104 @@
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Nunito', sans-serif;
+}
+
+.logo {
+  width: 300px;
+}
+
+.demo__box {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.demo__link {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #18324B;
+  text-decoration: none;
+}
+
+.demo__link:hover {
+  font-weight: bold;
+}
+
+.demo__link:hover  img{
+  transition: all .4s ease;
+  border: 2px solid #B7975D;
+}
+
+.demo__link img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 1rem;
+  border: 2px solid transparent;
+  padding: 1rem;
+}
+
+.demo1 {
+  background-image: url('img/propuestas/1_brand_mobile_.jpg');
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 7899px;
+  margin: 0;
+  padding: 0;
+}
+
+.demo2 {
+  background-image: url('img/propuestas/2_white_mobile_.jpg');
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 8481px;
+  margin: 0;
+  padding: 0;
+}
+
+.demo3 {
+  background-image: url('img/propuestas/3_blue_mobile_.jpg');
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 7899px;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+  .container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .demo__box {
+    flex-direction: row;
+  }
+
+  .demo1 {
+    /*background-image: url('img/propuestas/01_brand.jpg');*/
+    height: 4951px;
+  }
+
+  .demo2 {
+    /*background-image: url('img/propuestas/01_brand.jpg');*/
+    height: 4951px;
+  }
+
+  .demo3 {
+    /*background-image: url('img/propuestas/01_brand.jpg');*/
+    height: 4951px;
+  }
+
+}
