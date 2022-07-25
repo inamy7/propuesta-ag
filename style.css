@@ -70,6 +70,15 @@
   padding: 0;
 }
 
+.demo4 {
+  background-image: url('img/propuestas/4_white_mobile_ajustes.jpg');
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 8472px;
+  margin: 0;
+  padding: 0;
+}
+
 
 
 @media only screen and (min-width: 768px) {
@@ -100,6 +109,11 @@
   .demo3 {
     background-image: url('img/propuestas/03_blue_.jpg');
     height: 4948px;
+  }
+
+  .demo4 {
+    background-image: url('img/propuestas/4_white_desktop_ajustes.jpg');
+    height: 5547px;
   }
 
 }
