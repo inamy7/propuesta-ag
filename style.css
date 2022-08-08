@@ -79,6 +79,15 @@
   padding: 0;
 }
 
+.about-us {
+  background-image: url('img/about-us/sobre-nosotros_mobile.jpg');
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 5038px;
+  margin: 0;
+  padding: 0;
+}
+
 
 
 @media only screen and (min-width: 768px) {
@@ -114,6 +123,11 @@
   .demo4 {
     background-image: url('img/propuestas/4_white_.jpg');
     height: 5547px;
+  }
+
+  .about-us {
+    background-image: url('img/about-us/sobre-nosotros_desktop.jpg');
+    height: 2671px;
   }
 
 }
