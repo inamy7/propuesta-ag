@@ -83,7 +83,7 @@
   background-image: url('img/about-us/sobre-nosotros_mobile.jpg');
   background-position: top center;
   background-repeat: no-repeat;
-  height: 5038px;
+  height: 5201px;
   margin: 0;
   padding: 0;
 }
@@ -127,7 +127,7 @@
 
   .about-us {
     background-image: url('img/about-us/sobre-nosotros_desktop.jpg');
-    height: 2671px;
+    height: 2882px;
   }
 
 }
